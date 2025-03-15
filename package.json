@@ -1,0 +1,25 @@
+{
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "description": "A clone https://www.tabnews.com.br/ to https://curso.dev/",
+  "homepage": "https://github.com/weslleysilv4/clone-tabnews#readme",
+  "bugs": {
+    "url": "https://github.com/weslleysilv4/clone-tabnews/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weslleysilv4/clone-tabnews.git"
+  },
+  "license": "MIT",
+  "author": "Weslley Silva",
+  "main": "pages/index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
