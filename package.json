@@ -15,7 +15,9 @@
   "main": "pages/index.js",
   "scripts": {
     "build": "next build",
-    "dev": "next dev"
+    "dev": "next dev",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "next": "^13.1.6",
