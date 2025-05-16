@@ -12,12 +12,12 @@
   },
   "license": "MIT",
   "author": "Weslley Silva",
-  "main": "pages/index.js",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "start": "next start"
   },
   "dependencies": {
     "next": "^13.1.6",
